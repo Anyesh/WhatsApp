@@ -55,7 +55,7 @@ class LandingState extends State<Landing> with TickerProviderStateMixin {
             child: Icon(Icons.more_vert),
           )
         ],
-        backgroundColor: (Colors.greenAccent),
+        // backgroundColor: (Colors.greenAccent),
         bottom: TabBar(
           tabs: <Widget>[
             Tab(icon: Icon(Icons.camera_alt)),
@@ -72,8 +72,8 @@ class LandingState extends State<Landing> with TickerProviderStateMixin {
         children: <Widget>[
           Icon(Icons.camera_alt),
           ChatPage(),
-          Text("Status Screen"),
-          Text("Call Screen")
+          Center(child: Text("Status Screen")),
+          Center(child: Text("Call Screen")),
         ],
       ),
       floatingActionButton: FloatingActionButton(

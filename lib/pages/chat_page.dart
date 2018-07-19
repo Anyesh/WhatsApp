@@ -8,6 +8,6 @@ class ChatPage extends StatefulWidget {
 class ChatPageState extends State<ChatPage> {
   @override
   Widget build(BuildContext ctx) {
-    return Text("Chat Screen");
+    return Center(child: Text("Chat Screen"));
   }
 }
